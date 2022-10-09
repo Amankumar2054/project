@@ -1,0 +1,1338 @@
+
+<html>
+
+<head>
+	<title>Project</title>
+	<style type="text/css">
+		body {
+			margin: 0 auto;
+
+		}
+		@media screen and (max-width:1000px) {
+			#mainarea{
+				width:100%;
+				height:auto;
+			}
+		}
+
+		#mainarea {
+			width: 100%;
+			height: 100%;
+			background: black;
+		}
+
+		#toparea {
+			width: 100%;
+			height: 220px;
+			float: left;
+
+		}
+
+		#logoarea {
+			width:15%;
+			height: 200px;
+
+			float: left;
+			background: url('background.jpg') no-repeat;
+			background-size: 100% 200px;
+
+		}
+
+		#titlearea {
+			width: 85%;
+			height: 200px;
+			float: left;
+
+			background: url('background.jpg');
+			background-size: 100% 200px;
+		}
+
+		#titlearea h1 {
+			/* text-align: center; */
+			margin-left: 300px;
+
+			margin-bottom: 0px;
+			font-size: 60px;
+			color: #c3f795;
+			margin-top: 10px;
+
+			text-shadow: 0 -1px 4px rgb(255, 227, 227), 0 -2px 10px rgb(232, 232, 89), 0 -10px 20px #d4781c, 0 -18px 40px #F00;
+
+		}
+
+		#titlearea h3 {
+			margin-left: 230px;
+			color: #A7DD3C;
+			background: #FFFFFF;
+			text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77, 0, 38, 0.5), 3px 0 3px #FF002B, 5px 0 3px #800015, 6px 2px 3px rgba(77, 0, 13, 0.5), 6px 0 9px #FF5500, 8px 0 9px #802A00, 9px 2px 9px rgba(77, 25, 0, 0.5),
+				9px 0 18px #FFD500, 11px 0 18px #806A00, 12px 2px 18px rgba(77, 66, 0, 0.5), 12px 0 30px #D4FF00, 14px 0 30px #6A8000,
+				15px 2px 30px rgba(64, 77, 0, 0.5), 15px 0 45px #80FF00, 17px 0 45px #408000, 17px 2px 45px rgba(38, 77, 0, 0.5);
+			font-size: 40px;
+			background: none;
+			margin-right: 413px;
+			margin-top: 0px;
+		}
+
+		#menuarea {
+			width: 100%;
+			height: 100px;
+			float: left;
+			background: url('background.jpg') no-repeat;
+			background-size: 100% 100px;
+
+			float: left;
+		}
+		
+
+		#meuarea #logo {
+			width: 15%;
+			height: 100px;
+			float: left;
+			background: url('background.jpg') no-repeat;
+			background-size: 100% 100px;
+		}
+
+		#logo img {
+			margin-top: -150px;
+			margin-left: 25px;
+			margin-right: 5px;
+
+		}
+		#menulist ul{
+			color:white;
+			list-style:none;
+		}
+		#menulist ul li:nth-child(n) {
+			float: left;
+		
+			color:white;
+			margin-left: 200px;
+		
+			font-size:20px;
+		}
+		#menulist ul li:first-child{
+			margin-left:240px;
+			float:left;
+		}
+		#menulist ul li:hover{
+			border-bottom: solid 2px darkcyan;
+		}
+		#menuarea ul li a{
+			color:white;
+			text-decoration:none;
+		}
+		#slidearea {
+			width: 100%;
+			height: 600px;
+			float: left;
+			background: url('background.jpg') no-repeat;
+			background-size: 100% 600px;
+			float: left;
+
+		}
+
+		#darea {
+			width: 100%;
+			height: 500px;
+			float: left;
+			background: url('img1.jpg') no-repeat;
+			background-size: 100% 500px;
+
+		}
+
+		#head {
+			width: 100%;
+			height: 100px;
+			float: left;
+			background:url('background.jpg') no-repeat;
+			background-size: 100% 100px;
+
+		}
+		#head h1{
+			text-align:center;
+			color:cyan;
+			font-size:40px;
+			font-weight:bolder;
+		}
+
+		.mainmsgarea {
+			background: url('background.jpg') no-repeat;
+			background-size: 100% 350px;
+			width: 100%;
+			height: 350px;
+			float: left;
+		}
+
+		.msgarea {
+			width: 80%;
+			height: 350px;
+			float: left;
+			background: black;
+			margin: 0 10%;
+
+		}
+
+		.msgarea9 {
+
+			width: 45%;
+			height: 300px;
+			float: left;
+			background: url('background.jpg') no-repeat;
+			background-size: 100% 300px;
+
+			overflow: hidden;
+			margin-bottom: 14px;
+			margin-top: 41px;
+			margin-left: 36px;
+			margin-right: 25px;
+			position: relative;
+		}
+
+
+		.msgareaall h1 {
+			color: rgba(22, 34, 45, 0.0);
+			text-align: center;
+			margin-top: 80px;
+			display: block;
+
+
+
+
+		}
+
+
+
+
+
+		.msgareaall {
+
+			width: 45%;
+			height: 300px;
+			float: left;
+			background: none;
+			overflow: hidden;
+			position: absolute;
+
+			top: 0px;
+
+
+		}
+
+		.msgareaall:hover {
+			opacity: 1;
+			background: rgba(94, 88, 88, 0.8);
+			width: 100%;
+			height: 300px;
+
+		}
+
+		.msgareaall h1:hover {
+			color: rgb(195, 185, 185);
+			text-align: center;
+
+			display: block;
+			font-size: 40px;
+			font-weight: bolder;
+			position: absolute;
+			margin-left: 60px;
+			margin-top: 110px;
+			padding-top: 20px;
+			padding-left: 80px;
+
+		}
+
+		.msgarea10 {
+
+			width: 45%;
+			height: 300px;
+			float: left;
+			background: url('background.jpg');
+			background-size: 100% 300px;
+			margin-top: 41px;
+			margin-left: 25px;
+			margin-bottom: 14px;
+			margin-right: 15x;
+			position: relative;
+			overflow: hidden;
+
+		}
+
+		.msgarea11 {
+
+			width: 45%;
+			height: 300px;
+			float: left;
+			background: url('background.jpg');
+			background-size: 100% 300px;
+			margin-bottom: 20px;
+			margin-top: 28px;
+			margin-left: 36px;
+			margin-right: 25px;
+			overflow: hidden;
+			position: relative;
+		}
+
+		.msgarea12 {
+
+			width: 45%;
+			height: 300px;
+			float: left;
+			background: url('background.jpg');
+			background-size: 100% 300px;
+			margin-top: 28px;
+			margin-left: 25px;
+			margin-bottom: 25px;
+			margin-right: 15x;
+			overflow: hidden;
+			position: relative;
+		}
+
+		.msgarea13 {
+
+			width: 45%;
+			height: 300px;
+			float: left;
+			background: url('background.jpg');
+			background-size: 100% 300px;
+			margin-bottom: 30px;
+			margin-top: 15px;
+			margin-left: 36px;
+			margin-right: 25px;
+			overflow: hidden;
+			position: relative;
+		}
+
+		.msgarea14 {
+
+			width: 45%;
+			height: 300px;
+			float: left;
+
+			background-size: 100% 300px;
+			background: url('background.jpg');
+
+			margin-top: 15px;
+			margin-left: 25px;
+			margin-bottom: 30px;
+			margin-right: 15x;
+			overflow: hidden;
+			position: relative;
+		}
+
+		.border {
+			width: 80%;
+			height: 15px;
+			float: left;
+			margin: 0 10%;
+			background: white;
+		}
+
+		#briefarea {
+			width: 100%;
+			height: 1850px;
+			background: url('background.jpg') no-repeat;
+			background-size: 100% 1850px;
+			float: left;
+			
+		}
+
+		.briefarea1 {
+			width: 80%;
+			height: 300px;
+			background: url('background.jpg') no-repeat;
+			background-size: 100% 300px;
+			margin: 0 10%;
+			float: left;
+			border:2px solid rgb(94, 144, 144);
+		}
+
+		.picbrief {
+			width: 27%;
+			height: 280px;
+			float: left;
+			background: rgb(155, 24, 24);
+			margin-top: 20px;
+			margin-left: 23px;
+			margin-bottom: 0px;
+			animation-name:game;
+			animation-duration:6s;
+			animation-iteration-count:infinite;
+			position:relative;
+			
+		}
+		@keyframes game{
+			0%{
+				background:url(cod1.jpg) no-repeat;
+				background-size:100% 100%;
+				
+				
+
+			}
+			10%{
+				background:url(cod2.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			20%{
+				background:url(cod3.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			30%{
+				background:url(cod4.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			40%{
+				background:url(cod5.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			50%{
+				background:url(cod6.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			60%{
+				background:url(cod7.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			70%{
+				background:url(cod8.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			80%{
+				background:url(cod9.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			90%{
+				background:url(cod10.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			100%{
+				background:url(cod2.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+		}
+
+		.picbrief1 {
+			width: 27%;
+			height: 280px;
+			float: left;
+			background: rgb(155, 24, 24);
+			margin-top: 20px;
+			margin-left: 23px;
+			margin-bottom: 0px;
+			animation-name:game1;
+			animation-duration:6s;
+			animation-iteration-count:infinite;
+			position:relative;
+		}
+		@keyframes game1{
+			0%{
+				background:url(bg1.jpg) no-repeat;
+				background-size:100% 100%;
+				
+				
+
+			}
+			10%{
+				background:url(bg2.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			20%{
+				background:url(bg3.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			30%{
+				background:url(bg4.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			40%{
+				background:url(bg5.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			50%{
+				background:url(bg6.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			60%{
+				background:url(bg7.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			70%{
+				background:url(bg8.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			80%{
+				background:url(bg9.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			90%{
+				background:url(bg10.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			100%{
+				background:url(bg2.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+		}
+		
+		.picbrief2 {
+			width: 27%;
+			height: 280px;
+			float: left;
+			background: rgb(155, 24, 24);
+			margin-top: 20px;
+			margin-left: 23px;
+			margin-bottom: 0px;
+			animation-name:game2;
+			animation-duration:6s;
+			animation-iteration-count:infinite;
+			position:relative;
+		}
+		@keyframes game2{
+			0%{
+				background:url(ff1.jpg) no-repeat;
+				background-size:100% 100%;
+				
+				
+
+			}
+			10%{
+				background:url(ff2.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			20%{
+				background:url(ff3.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			30%{
+				background:url(ff4.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			40%{
+				background:url(ff5.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			50%{
+				background:url(ff6.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			60%{
+				background:url(ff7.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			70%{
+				background:url(ff8.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			80%{
+				background:url(ff9.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			90%{
+				background:url(ff10.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			100%{
+				background:url(ff2.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+		}
+		
+		.picbrief3 {
+			width: 27%;
+			height: 280px;
+			float: left;
+			background: rgb(155, 24, 24);
+			margin-top: 20px;
+			margin-left: 23px;
+			margin-bottom: 0px;
+			animation-name:game3;
+			animation-duration:6s;
+			animation-iteration-count:infinite;
+			position:relative;
+		}
+		@keyframes game3{
+			0%{
+				background:url(fn1.jpg) no-repeat;
+				background-size:100% 100%;
+				
+				
+
+			}
+			10%{
+				background:url(fn2.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			20%{
+				background:url(fn3.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			30%{
+				background:url(fn4.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			40%{
+				background:url(fn5.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			50%{
+				background:url(fn6.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			60%{
+				background:url(fn7.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			70%{
+				background:url(fn8.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			80%{
+				background:url(fn9.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			90%{
+				background:url(fn10.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			100%{
+				background:url(fn2.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+		}
+		
+		.picbrief4 {
+			width: 27%;
+			height: 280px;
+			float: left;
+			background: rgb(155, 24, 24);
+			margin-top: 20px;
+			margin-left: 23px;
+			margin-bottom: 0px;
+			animation-name:game4;
+			animation-duration:6s;
+			animation-iteration-count:infinite;
+			position:relative;
+		}
+		@keyframes game4{
+			0%{
+				background:url(gt1.jpg) no-repeat;
+				background-size:100% 100%;
+				
+				
+
+			}
+			10%{
+				background:url(gt2.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			20%{
+				background:url(gt3.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			30%{
+				background:url(gt4.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			40%{
+				background:url(gt9.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			50%{
+				background:url(gt6.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			60%{
+				background:url(gt7.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			70%{
+				background:url(gt10.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			80%{
+				background:url(gt9.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			90%{
+				background:url(gt10.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			100%{
+				background:url(gt2.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+		}
+
+
+		.msgbrief {
+			width: 67%;
+			height: 280px;
+			float: left;
+			background: lightblue;
+			margin-top: 20px;
+			margin-left: 25px;
+			margin-bottom: 0px;
+			overflow: auto;
+			position:relative;
+		}
+
+		.msgbrief p {
+			text-align: justify;
+			font-size: 16px;
+			font-weight: 10px;
+			line-height: 20px;
+			margin: 0;
+			float: left;
+			background: url('background.jpg');
+			color: white;
+		}
+
+		.msgbrief h1 {
+			color: darkcyan;
+			margin: 0;
+			text-align: center;
+			background: url('background.jpg');
+			
+		}
+
+
+		.briefarea2 {
+			width: 80%;
+			height: 320px;
+			float: left;
+			background: url('background.jpg') no-repeat;
+			background-size: 100% 320px;
+			margin: 0px 10%;
+			border:2px solid rgb(94, 144, 144);
+
+		}
+
+		.picbrief6 {
+			width: 27%;
+			height: 280px;
+			float: left;
+			background: red;
+			margin-top: 20px;
+			margin-left: 23px;
+			margin-bottom: 20px;
+			animation-name:game5;
+			animation-duration:6s;
+			animation-iteration-count:infinite;
+		}
+		
+
+		@keyframes game5{
+			0%{
+				background:url(fh1.jpg) no-repeat;
+				background-size:100% 100%;
+				
+				
+
+			}
+			10%{
+				background:url(fh2.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			20%{
+				background:url(fh3.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			30%{
+				background:url(fh4.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			40%{
+				background:url(fh5.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			50%{
+				background:url(fh6.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			60%{
+				background:url(fh7.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			70%{
+				background:url(fh8.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			80%{
+				background:url(fh9.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			90%{
+				background:url(fh10.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+			100%{
+				background:url(fh2.jpg) no-repeat;
+				background-size:100% 100%;
+				
+
+			}
+		}
+
+		.msgbrief6 {
+			width: 67%;
+			height: 280px;
+			float: left;
+			background: lightblue;
+			margin-top: 20px;
+			margin-left: 25px;
+			margin-bottom: 20px;
+			overflow: auto;
+		}
+
+		.msgbrief6 p {
+			text-align: justify;
+
+
+
+			font-size: 16px;
+			font-weight: 10px;
+			line-height: 20px;
+			margin: 0;
+			float: left;
+			background: url('background.jpg');
+			color: white;
+
+
+		}
+
+		.msgbrief6 h1 {
+			color: darkcyan;
+			margin: 0;
+			text-align: center;
+			background: url('background.jpg');
+		}
+	</style>
+</head>
+
+<body>
+	<div id="mainarea">
+
+
+		<div id="toparea">
+
+
+			<div id="logoarea">
+
+			</div>
+
+			<div id="titlearea">
+
+				<h1>The Gamers Club</h1><br>
+				<h3>“Gaming Brings People Together.”</h3>
+			</div>
+		</div>
+		<div id="menuarea">
+			<div id="logo">
+				<img src="logo.png" />
+			</div>
+			<div id="menulist">
+				<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">ABOUT US</a></li>
+				<li><a href="#">LOGIN</a></li>
+				<li><a href="#">CONTACT US</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="slidearea">
+
+			<video width="100%" height="600px" muted controls loop poster="poster.jpg">
+				<source src="projectvid1.mp4" type="video/mp4">
+			</video>
+
+		</div>
+		<div id="darea">
+
+
+		</div>
+		<div id="head">
+			<h1>Top Games List</h1>
+		</div>
+		<div class="mainmsgarea">
+			<div class="msgarea">
+				<a href="#callofduty" name="freefire">
+					<div class="msgarea9">
+						<img src="game1.jpg" width="100%" />
+						<div class="msgareaall">
+							<h1>CLICK HERE.</h1>
+						</div>
+					</div>
+				</a>
+				<a href="#BGMI">
+					<div class="msgarea10">
+						<img src="game2.jpg" width="100%" />
+
+						<div class="msgareaall">
+							<h1> CLICK HERE.</h1>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="mainmsgarea">
+			<div class="msgarea">
+				<a href="#freefire">
+					<div class="msgarea11">
+						<img src="game3.jpg" width="100%" />
+						<div class="msgareaall">
+							<h1> CLICK HERE.</h1>
+						</div>
+					</div>
+				</a>
+				<a href="#Fortnite">
+					<div class="msgarea12">
+						<img src="game4.jpg" width="100%" />
+						<div class="msgareaall">
+							<h1> CLICK HERE.</h1>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="mainmsgarea">
+			<div class="msgarea">
+				<a href="#GTA">
+					<div class="msgarea13">
+						<img src="game5.jpg" width="100%" />
+						<div class="msgareaall">
+							<h1> CLICK HERE.</h1>
+						</div>
+					</div>
+				</a>
+				<a href="#Froza">
+					<div class="msgarea14">
+						<img src="game6.jpg" height="300px" width="100%" />
+						<div class="msgareaall">
+							<h1> CLICK HERE.</h1>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div id="briefarea">
+			<div class="briefarea1">
+
+				<div class="picbrief">
+
+				</div>
+				<div class="msgbrief" id="callofduty">
+					<h1> Call Of Duty</h1>
+					<p> Call of Duty is a first-person shooter video game based on id Tech 3, and was released on
+						October 29, 2003. The game was developed
+						by Infinity Ward and published by Activision. The game simulates the infantry and combined arms
+						warfare of World War II.[69] An expansion
+						pack, Call of Duty: United Offensive, was developed by Gray Matter Studios with contributions
+						from Pi Studios and produced by Activision.
+						The game follows American and British paratroopers and the Red Army. The Mac OS X version of the
+						game was ported by Aspyr Media. In late
+						2004, the N-Gage version was developed by Nokia and published by Activision. Other versions were
+						released for PC, including Collector's Edition
+						(with soundtrack and strategy guide), Game of the Year Edition (includes game updates), and the
+						Deluxe Edition (which contains the United Offensive
+						expansion and soundtrack; in Europe the soundtrack was not included). On September 22, 2006,
+						Call of Duty, United Offensive, and Call of Duty 2 were
+						released together as Call of Duty: War Chest for PC.[70] Since November 12, 2007, Call of Duty
+						games have been available for purchase via Valve's content
+						delivery platform Steam.Call of Duty: Modern Warfare 3 is a first-person shooter video game. It
+						is the eighth installment of the Call of Duty series and the
+						third installment of the Modern Warfare arc. Due to a legal dispute between the game's publisher
+						Activision and the former co-executives of Infinity Ward –
+						which caused several lay-offs and departures within the company[87] – Sledgehammer Games
+						assisted in the development of the game, while Raven Software was
+						brought in to make cosmetic changes to the menus of the game.[88] The game was said to have been
+						in development since only two weeks after the release of
+						Call of Duty: Modern Warfare 2.[88] Sledgehammer was aiming for a "bug free" first outing in the
+						Call of Duty franchise, and had also set a goal for Metacritic
+						review scores above 95 percent.[89]The game continues the story from the point at which it ended
+						in the Call of Duty: Modern Warfare 2 and continues the fictional
+						battle story between the United States and Russia, which evolves into the Third World War
+						between NATO allied nations and ultra-nationalist Russia.
+					</p>
+				</div>
+			</div>
+			<div class="briefarea1">
+
+				<div class="picbrief1">
+
+				</div>
+				<div class="msgbrief" id="BGMI">
+					<h1>BGMI</h1>
+					<p> Battlegrounds Mobile India, or BGMI, is a player-versus-player shooter game in which up to 100
+						players compete in a battle royale, a type of
+						large-scale last man standing deathmatch in which players compete to be the last one standing.
+						Players can enter the match as individuals or as
+						small groups of up to four.Each match starts with players parachuting from a plane onto one of
+						the following six maps:Each round, the plane's
+						flight path across the map changes, requiring players to quickly determine the best time to
+						eject and parachute to the ground. Players begin
+						with no equipment other than customised clothing options that have no effect on gameplay. Once
+						on the ground, players can search buildings,
+						ghost towns, and other locations for weapons, vehicles, armour, and other items. At the start of
+						a match, these items are procedurally distributed
+						throughout the map, with higher-risk zones typically having better equipment. Finished players
+						can also be looted for their gear. Players can choose'
+						to play in first-person or third-person, with each having advantages and disadvantages in combat
+						and situational awareness; however, server-specific
+						settings can be used to force all players into one perspective, removing some advantages.Every
+						few minutes, the map's playable area shrinks towards a
+						random location, with any player caught outside the safe zone taking incremental damage and
+						eventually being eliminated if the safe zone is not entered
+						in time; in game, the boundary appears as a shimmering blue wall that contracts over time. This
+						results in a more constrained map, which increases the
+						likelihood of encounters. Random regions of the map are highlighted in red and bombed during the
+						match, posing a threat to players who remain in that
+						area. Players are warned a few minutes before these events in both cases, giving them time to
+						relocate to safety. A plane will occasionally fly over
+						different parts of the playable map at random, or wherever a player uses a flare gun, and drop a
+						loot package containing items that are normally
+						unobtainable during normal gameplay. These packages emit highly visible red or yellow smoke,
+						attracting interested players and resulting in additional
+						confrontations. A full round takes about 30 minutes on average.Players earn in-game currency
+						based on their performance at the end of each round.
+						The currency can be used to buy cosmetic items in-game.</p>
+				</div>
+			</div>
+			<div class="briefarea1">
+
+				<div class="picbrief2">
+
+				</div>
+				<div class="msgbrief" id="freefire">
+					<h1>Free Fire</h1>
+					<p> Free Fire, the world-famous survival shooter game available on mobile. Each 10-minute game
+						places you on a
+						remote island where you are pit against 49 other players, all seeking survival. Players
+						freely choose their starting
+						point with their parachute, and aim to stay in the safe zone for as long as possible. Drive
+						vehicles to explore the
+						vast map, hide in the wild, or become invisible by proning under grass or rifts. Ambush,
+						snipe, survive, there is only
+						one goal: to survive and answer the call of duty.Search for weapons, stay in the play zone,
+						loot your enemies and become
+						the last man standing. Along the way, go for legendary airdrops while avoiding airstrikes to
+						gain that little edge against other players.
+						Fast and Lite gameplay - Within 10 minutes, a new survivor will emerge. Will you go beyond
+						the call of duty and be the one under the shining lite?
+						Create squads of up to 4 players and establish communication with your squad at the very
+						first moment. Answer the call of duty and lead your friends
+						to victory and be the last team standing at the apex.Fast paced 4v4 game mode is now open
+						24/7! Manage your economy, purchase weapons, and defeat
+						the enemy squad! Easy to use controls and smooth graphics promises the optimum survival
+						experience you will find on mobile to help you immortalize
+						your name among the legends.Along the way, go for legendary airdrops while avoiding
+						airstrikes to gain that little edge against other players.
+						Fast and Lite gameplay - Within 10 minutes, a new survivor will emerge. Will you go beyond
+						the call of duty and be the one under the shining lite?
+						Create squads of up to 4 players and establish communication with your squad at the very
+						first moment. Answer the call of duty and lead your friends
+						to victory and be the last team standing at the apex.Fast paced 4v4 game mode is now open
+						24/7! Manage your economy, purchase weapons, and defeat
+						the enemy squad! Easy to use controls and smooth graphics promises the optimum survival
+						experience you will find on mobile to help you immortalize
+						your name among the legendsFree Fire, the world-famous survival shooter game available on
+						mobile. Each 10-minute game places you on a
+						remote island where you are pit against 49 other players, all seeking survival. Players
+						freely choose their starting
+						point with their parachute, and aim to stay in the safe zone for as long as possible. Drive
+						vehicles to explore the
+						vast map, hide in the wild, or become invisible by proning under grass or rifts. Ambush,
+						snipe, survive, there is only
+						one goal: to survive and answer the call of duty.Search for weapons, stay in the play zone,
+						loot your enemies and become
+						the last man standing. Along the way, go for legendary airdrops while avoiding airstrikes to
+						gain that little edge against other players.
+						Fast and Lite gameplay - Within 10 minutes, a new survivor will emerge. Will you go beyond
+						the call of duty and be the one under the shining lite?
+						Create squads of up to 4 players and establish communication with your squad at the very
+						first moment. Answer the call of duty and lead your friends
+						to victory and be the last team standing at the apex.Fast paced 4v4 game mode is now open
+						24/7! Manage your economy, purchase weapons, and defeat
+						the enemy squad! Easy to use controls and smooth graphics promises the optimum survival
+						experience you will find on mobile to help you immortalize
+						your name among the legends.Along the way, go for legendary airdrops while avoiding
+						airstrikes to gain that little edge against other players.
+						Fast and Lite gameplay - Within 10 minutes, a new survivor will emerge. Will you go beyond
+						the call of duty and be the one under the shining lite?
+						Create squads of up to 4 players and establish communication with your squad at the very
+						first moment. Answer the call of duty and lead your friends
+						to victory and be the last team standing at the apex.Fast paced 4v4 game mode is now open
+						24/7! Manage your economy, purchase weapons, and defeat
+						the enemy squad! Easy to use controls and smooth graphics promises the optimum survival
+						experience you will find on mobile to help you immortalize
+						your name among the legends</p>
+				</div>
+			</div>
+			<div class="briefarea1">
+
+				<div class="picbrief3">
+
+				</div>
+				<div class="msgbrief" id="Fortnite">
+					<h1>Fortnite</h1>
+					<p> Fortnite is an online video game developed by Epic Games and released in 2017. It is
+						available in three distinct game mode
+						versions that otherwise share the same general gameplay and game engine: Fortnite Battle
+						Royale, a free-to-play battle royale
+						game in which up to 100 players fight to be the last person standing; Fortnite: Save the
+						World, a cooperative hybrid tower
+						defense-shooter and survival game in which up to four players fight off zombie-like
+						creatures and defend objects with traps
+						and fortifications they can build; and Fortnite Creative, in which players are given
+						complete freedom to create worlds and battle arenas
+						Save the World and Battle Royale were released in 2017 as early access titles, while
+						Creative was released on December 6, 2018. While the
+						Save the World and Creative versions have been successful for Epic Games, Fortnite Battle
+						Royale in particular became an overwhelming
+						success and a cultural phenomenon, drawing more than 125 million players in less than a
+						year, earning hundreds of millions of dollars
+						per month. Fortnite as a whole generated $9 billion in gross revenue up until December
+						2019.Players can use their pickaxe to knock down existing
+						structures on the map to collect basic resources that are wood, brick, and metal.
+						Subsequently, in all modes, the player can use these materials
+						to build fortifications, such as walls, floors, and stairs. Such fortification pieces can be
+						edited to add things like windows or doors.
+						The materials used have different durability properties and can be updated to stronger
+						variants using more materials of the same type. Within
+						Save the World this enables players to create defensive fortifications around an objective
+						or trap-filled tunnels to lure husks through.
+						In Battle Royale, this provides the means to quickly traverse the map, protect oneself from
+						enemy fire, or to delay an advancing foe.
+						Players are encouraged to be very inventive in designing their fortifications in
+						Creative.While Battle Royale and Creative are free-to-play,
+						Save the World is pay-to-play.[3] The games are monetized through the use of V-Bucks,
+						in-game currency that can be purchased with real-world funds,
+						but also earned through completing missions and other achievements in Save the World.
+						V-Bucks in Save the World can be used to buy loot boxes,
+						in the form of piñatas shaped like llamas, to gain a random selection of items. In Battle
+						Royale, V-Bucks can be used to buy cosmetic items like
+						character models or the like, or can also be used to purchase the game's battle pass, a
+						tiered progression of customization rewards for gaining
+						experience and completing certain objectives during the course of a Battle Royale season>
+					</p>
+				</div>
+			</div>
+			<div class="briefarea1">
+
+				<div class="picbrief4">
+
+				</div>
+				<div class="msgbrief" id="GTA">
+					<h1>GTA</h1>
+					<p> Grand Theft Auto (GTA) is a series of action-adventure games created by David Jones and Mike
+						Dailly.[2] Later titles were
+						developed under the oversight of brothers Dan and Sam Houser, Leslie Benzies and Aaron
+						Garbut. It is primarily developed by
+						British development house Rockstar North (formerly DMA Design), and published by its parent
+						company, Rockstar Games. The name
+						of the series references the term "grand theft auto", used in the United States for motor
+						vehicle theft.Gameplay focuses on an open
+						world where the player can complete missions to progress an overall story, as well as engage
+						in various side activities. Most of the
+						gameplay revolves around driving and shooting, with occasional role-playing and stealth
+						elements. The series also has elements of the
+						earlier beat 'em up games from the 16-bit era. The games in the Grand Theft Auto series are
+						set in fictional locales modelled after
+						real-life cities, at various points in time from the early 1960s to the 2010s. The original
+						game's map encompassed three cities—Liberty
+						City (based on New York City), San Andreas (based on San Francisco),[a] and Vice City (based
+						on Miami)—but later titles tend to focus on
+						a single setting; usually one of the original three locales, albeit remodelled and
+						significantly expanded. The series centers on different
+						protagonists who attempt to rise through the ranks of the criminal underworld, although
+						their motives for doing so vary in each title. The
+						antagonists are commonly characters who have betrayed the protagonist or their organisation,
+						or characters who have the most impact impeding
+						the protagonist's progress. Several film and music veterans have voiced characters in the
+						games, including Ray Liotta, Dennis Hopper, Samuel L.
+						Jackson, William Fichtner, James Woods, Debbie Harry, Axl Rose and Peter Fonda.[3]DMA Design
+						began the series in 1997, with the release of
+						the Grand Theft Auto. As of 2020, the series consists of seven standalone titles and four
+						expansion packs. The third main title, Grand Theft
+						Auto III, released in 2001, is considered a landmark game, as it brought the series to a
+						three-dimensional (3D) setting and more immersive
+						experience. Subsequent titles have followed and built upon the concept established in Grand
+						Theft Auto III, and received significant acclaim.
+						They have influenced other open-world action games, and led to the label Grand Theft Auto
+						clone on similar titles.The series has been critically
+						acclaimed, with all the main 3D entries in the franchise frequently ranked among the
+						greatest and best-selling video games;[4] it has shipped more
+						than 370 million units, making it the fifth-best selling video game franchise. In 2006,
+						Grand Theft Auto was featured in a list of British design
+						icons in the Great British Design Quest organised by the BBC and the Design Museum.[5] In
+						2013, The Telegraph ranked Grand Theft Auto among Britain's
+						most successful exports.[6] The series has also been controversial for its adult nature and
+						violent themes.</p>
+				</div>
+			</div>
+			<div class="briefarea2">
+
+				<div class="picbrief6">
+
+				</div>
+				<div class="msgbrief6" id="Froza">
+					<h1>Forza Horizon</h1>
+					<p> Forza Horizon received "favorable" reviews according to the review aggregation website
+						Metacritic.[27] Scores range from two perfect scores given
+						by Jeff Gerstmann of Giant Bomb and David Wahlström of Eurogamer Sweden to a 60%
+						approval from Philip Kollar of Polygon.[37][41][44] The majority of
+						scores were of an 80% approval rating or higher.[27] It ranked in the top 20 Xbox LIVE
+						titles for the first two months following its release.[45]
+						Eurogamer deputy editor Oli Welsh called Horizon "a big, exciting game that finally
+						brings car enthusiasts together with the realistic open roads they
+						crave."[31] Welsh noted that the control scheme and realistic handling allows players to
+						enjoy driving even the slowest of cars.[31] GamesRadar's
+						Sterling McGarvey felt that sometimes the cars lacked precise handling, but gave high
+						marks for the game's environment and vast amount of activities
+						to do.[46] Matthew Kato of Game Informer praised the game's visuals. He gave high marks
+						for the dynamic day/night cycle and the detailed environment
+						and vehicles.[32] He also praised the online multiplayer, including the game's Cat and
+						Mouse multiplayer chase mode. Kato did note that much of the
+						open world is blocked by guardrails, thus blocking a player's ability to chart their own
+						paths during events such as a race against a plane.[32]
+						In a more critical review Polygon's Philip Kollar noted that he felt the open-world
+						environment felt empty. He further criticized the game's aggressive
+						and expensive DLC plan. He stated that while the content is not forced on the player "it
+						feels like the game is desperate to squeeze your wallet empty.
+						"[41] Kollar said that Forza Horizon "is at its best when it drops the sim pretence and
+						embraces its arcade nature".[41]Non-video game publications
+						gave high praise for the game also. The Digital Fix gave it nine out of ten, saying that
+						it "marks a new direction for the series and one that deserves
+						your attention. Not only does it provide top notch visuals, a fantastic summer
+						soundtrack and a wealth of racing options, it makes a traditionally sterile
+						racing simulator just down right [sic] fun."[47] The Daily Telegraph gave it a score of
+						four stars out of five, calling it "a thrilling, charismatic, feel-
+						good racer. They are the definitions that matter."[42] The Globe and Mail also gave it a
+						score of eight out of ten, calling it "a refreshing take on
+						the racing genre that successfully straddles the line between serious car
+						simulation and arcade-like bang 'em up games</p>
+				</div>
+			</div>
+
+		</div>
+
+</body>
+
+</html>
